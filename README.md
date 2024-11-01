@@ -11,8 +11,6 @@ This project utilizes IBM's Natural Language Understanding API to detect the emo
 - [Usage](#usage)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Getting Started
 
