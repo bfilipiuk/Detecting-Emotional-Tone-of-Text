@@ -58,6 +58,7 @@ const TextAnalyzer = () => {
   const handleSubmit = async (text) => {
     try {
       const { analysis, tone } = await analyzeText(text);
+      setErrorMessage(null);
       setAnalysis(analysis);
       setOldEmotionalTone(emotionalTone);
       setEmotionalTone(tone);

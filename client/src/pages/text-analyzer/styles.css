@@ -16,7 +16,9 @@
     color: white;
 }
 
-.text-analyzer .form-container {}
+.text-analyzer .form-container {
+    width: 80%;
+}
 
 .text-analyzer .results-container {
     width: 80%;

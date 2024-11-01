@@ -6,11 +6,22 @@ const ToneSummary = ({analysis, emotionalTone}) => {
     <div>
     <p className='emotions-scores'>Emotion Scores:</p>
     <ul className='scores-list'>
-        {Object.entries(analysis.emotion.document.emotion).map(
+      {Object.entries(analysis.emotion.document.emotion).map(
         ([emotion, score]) => (
-            <li key={emotion}>
-            {emotion}: {score}
-            </li>
+            // <li key={emotion}>
+            //   {emotion}: {(score * 100).toFixed(2)}%
+            // </li>
+          <li key={emotion} className="emotion-item">
+            <span className="emotion-text">
+              {emotion}: {(score * 100).toFixed(2)}%
+            </span>
+            <div className="bar-container">
+              <div
+                className="bar"
+                style={{ width: `${(score * 100).toFixed(2)}%` }}
+              ></div>
+            </div>
+          </li>
         )
         )}
     </ul>

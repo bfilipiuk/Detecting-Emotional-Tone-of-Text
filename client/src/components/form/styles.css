@@ -1,5 +1,5 @@
 .input-wrapper {
-    width: 80%;
+    width: 94%;
 }
 
 .input-label {
@@ -9,8 +9,9 @@
 }
 
 .input-textarea {
-    width: 95%;
+    width: 100%;
     min-height: 150px;
+    max-height: 250px;
     resize: vertical;
     outline: none;
     background-color: rgba(36, 36, 36, 0.0);
@@ -31,7 +32,7 @@
 .btn {
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
-    width: 80%;
+    width: 100%;
     display: inline-block;
     user-select: none;
     color: blue;

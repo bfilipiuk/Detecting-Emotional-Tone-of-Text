@@ -7,14 +7,41 @@
 
 .emotions-scores {
     font-size: 1rem;
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
 .scores-list {
     font-size: 1rem;
     margin-top: 0;
-    padding-left: 20px;
+    padding: 0;
+    list-style-type: none;
 }
+  
+  .emotion-item {
+    margin-bottom: 15px;
+  }
+  
+  .emotion-text {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .bar-container {
+    width: 100%;
+    background-color: #e0e0e0;
+    height: 10px;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .bar {
+    height: 100%;
+    background-color: blue; /* Adjust color as desired */
+    border-radius: 4px 0 0 4px;
+    transition: width 1s ease;
+  }
 
 .positive-tone {
     color: #1bee1b;
