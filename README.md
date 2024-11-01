@@ -25,7 +25,7 @@ These instructions will help you set up the project locally and get it running o
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/emotional-tone-detector.git
+   git clone https://github.com/bfilipiuk/Detecting-Emotional-Tone-of-Text.git
    cd emotional-tone-detector
    ```
 
