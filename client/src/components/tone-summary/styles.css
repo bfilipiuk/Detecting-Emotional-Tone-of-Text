@@ -1,0 +1,35 @@
+.emotions-scores,
+.scores-list,
+.emotional-tone,
+.error-message {
+    color: white;
+}
+
+.emotions-scores {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.scores-list {
+    font-size: 1rem;
+    margin-top: 0;
+    padding-left: 20px;
+}
+
+.positive-tone {
+    color: #1bee1b;
+}
+
+.neutral-tone {
+    color: #2e8fff;
+}
+
+.negative-tone {
+    color: #ff1a1a;
+}
+
+.positive-tone,
+.negative-tone,
+.neutral-tone {
+    font-size: 1.5rem;
+}
