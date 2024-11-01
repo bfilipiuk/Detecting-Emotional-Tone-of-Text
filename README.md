@@ -48,7 +48,7 @@ These instructions will help you set up the project locally and get it running o
    Create `apikey.txt` and `apiurl.txt` in server directory. Both files should contain ONLY relevant variables. For example apikey.txt content should look like:
 
    ```bash
-   abWMDH1237daJXKM123!
+   abWMDH1237daJXKM123
    ```
 
 ## Usage
