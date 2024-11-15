@@ -75,4 +75,4 @@ These instructions will help you set up the project locally and get it running o
 
 - **React**: Frontend JavaScript library for building the user interface.
 - **IBM Watson Natural Language Understanding**: For emotional tone and sentiment analysis.
-- **Node.js and Express**: Backend API to handle requests and communicate with IBM's API (if applicable).
+- **Node.js and Express**: Backend API to handle requests and communicate with IBM's API.
