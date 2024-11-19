@@ -3,6 +3,9 @@
 
 This project utilizes IBM's Natural Language Understanding API to detect the emotional tone of given text. The application analyzes input text and provides feedback on the emotional tone detected in 5 categories: sadness, joy, fear, disgust, anger and 3 overall results: positive, neutral, negative. It is built as a React web application, leveraging the capabilities of IBM's AI for accurate emotion and sentiment analysis.
 
+<img src="snippet.png" alt="Project snippet" width="700">
+
+
 ## Table of Contents
 
 - [Getting Started](#getting-started)
